@@ -4,7 +4,7 @@ const { NotImplementedError } = require('../extensions/index.js');
 
 /**
 * Implement simple binary search tree according to task description
-* using Node from extensions
+* using Node from extensions done
 */
 class BinarySearchTree {
   _root = null
