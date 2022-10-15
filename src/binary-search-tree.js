@@ -93,7 +93,7 @@ class BinarySearchTree {
         } else if(_cur && data < _cur.data) {
           _cur = _cur.left
         }
-       
+        //if(_cur && data == _cur.data) throw ('ЧЕ БЛИН ЗА НАФИГ!')
       }
       if(_cur && _cur.left && data == _cur.left.data) {
         let cur = _cur.left
@@ -110,7 +110,7 @@ class BinarySearchTree {
         right = _cur.right
       }
     }
-  
+    //left-right
     if(left) this.add(left)
     if(right) this.add(right)
     console.log(JSON.stringify(this._root))

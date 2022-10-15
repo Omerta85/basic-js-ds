@@ -22,7 +22,7 @@ const { NotImplementedError } = require('../extensions/index.js');
  *   }
  * }
  */
-ffunction removeKFromList(l, k) {
+ function removeKFromList(l, k) {
   let arr = []
   while(l.next != null) {
     arr = arr.concat(l.value)
